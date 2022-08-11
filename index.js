@@ -405,7 +405,7 @@ var verifyCheckMate = function (board, previousBoard, tower1Move, kingMove, towe
 // 4 alfil
 // 5 reina
 // 6 peon
-/*console.log(verifyCheck([
+console.log(verifyCheck([
         [-2, -3, -4, -5, -1, -4, -3, -2],
         [-6, -6, -6, -6, -6, -6, -6, -6],
         [0, 0, 0, 0, 0, 0, 0, 0],
@@ -414,8 +414,8 @@ var verifyCheckMate = function (board, previousBoard, tower1Move, kingMove, towe
         [0, 0, 0, 0, 0, 0, 0, 0],
         [6, 6, 6, 6, 6, 6, 6, 6],
         [2, 3, 4, 5, 1, 4, 3, 2],],
-    true));*/
-/*console.log(possibleMovements([
+    true));
+console.log(possibleMovements([
         [-2, -3, -4, -5, -1, -4, -3, -2],
         [-6, -6, -6, 0, -6, -6, -6, 0],
         [0, 0, 0, 0, 0, 0, 0, 0],
@@ -438,7 +438,7 @@ var verifyCheckMate = function (board, previousBoard, tower1Move, kingMove, towe
     false,
     false,
     false,
-    {x: 4, y: 4}));*/
+    {x: 4, y: 4}));
 console.log(verifyCheckMate([
     [-2, -3, -4, -5, -1, -4, -3, -2],
     [-6, -6, -6, -6, -6, -6, -6, 0],
